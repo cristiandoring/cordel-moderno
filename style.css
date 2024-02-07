@@ -1,12 +1,43 @@
 *{
     font-family: 'Protest Riot', sans-serif;
+    
 
 }
 body{
     background-color:white;
-    width: 98vh;
+    height: 98vh;
 }
 
+a{
+    text-decoration: none;
+}
+.fundo1{
+    background-image: url('imagens/background001.jpg');
+}
+
+.fundo2{
+    background-image: url('imagens/background002.jpg');
+}
+.fundo-preto{
+    background-color: black;
+}
+
+.fundo-branco{
+    background-color: white;
+}
+
+.fundo-transparente{
+    background-color: rgba(0, 0, 0, 0.518);
+    color: white;
+    width: 750px;
+}
+
+.fundo-preto{
+    background-color: black;
+    color: white;
+    width: 750px;
+    
+}
 header{
     background-color: black;
     color: white;
@@ -29,6 +60,7 @@ p{
     text-align: start;
     line-height: 1.5em;
     font-size: 2.5em;
+    padding: 15px;
 }
 footer{
     background-color: black;
