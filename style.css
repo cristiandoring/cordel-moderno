@@ -15,6 +15,7 @@ body{
 a{
     text-decoration: none;
     color: white;
+    font-weight: bold;
 }
 
 a:hover{
@@ -24,45 +25,58 @@ a:hover{
 section{
     padding-top:10vh;
     padding-bottom: 10vh;
+    padding-left: 30px;
+    font-size: 3.5vw;
+}
+
+section p{
+    padding-bottom: 2em;
 }
 
 .fundo-branco{
     background-color: white;
     color: black;
+    
+    
 }
 
 .fundo-transparente{
     background-color: rgba(51,51,51);
     color: white;
+    
+    background-image: url('imagens/background002.jpg');
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+
 
 }
 
 .fundo-preto{
     background-color: black;
     color: white;
+    background-image: url('imagens/background001.jpg');
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-section.fundo-preto{
-   background-color: white; 
-   color: black;
 
-}
-
-section.fundo-preto p{
-    background-color:rgb(0,0,0,0.253);
-    width: 400px;
+.fundo-preto > p{
+    background-color:rgb(0,0,0,0.514);
+    text-shadow: 1px 1px 0px black;
+    display: inline-block;
+    padding: 10px;
  
 }
 
-section.fundo-transparente{
-    background-color: white; 
-    color: black;
- 
- }
- 
- section.fundo-transparente p{
-     background-color:rgb(0,0,0,0.253);
-     width: 400px;
+.fundo-transparente > p{
+    background-color:rgb(0,0,0,0.514);
+    text-shadow: 1px 1px 0px black;
+    display: inline-block;
+    padding: 5px;
   
  }
 header{
@@ -73,9 +87,10 @@ header{
 
 }
 h1{
-    font-size: 8em;
+    font-size: 6em;
     padding: 50px;
     font-variant: small-caps;
+    font-size: 10vw;
 }
 
 header p{
@@ -86,7 +101,7 @@ header p{
 p{
     line-height: 1.5em;
     text-align: start;
-    font-size: 2.5em;
+    font-size: 2.5vw;
     padding: 15px;
 }
 footer{
